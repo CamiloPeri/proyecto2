@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form>
+         <fieldset>
+             <legend>tus daos personales</legend>
+        <label>Digite su nombre</label>
+        <input>
+
+        <button>Enviar</button></fieldset>
+
+        <!-- CONTRASEÑA-->
+          <div>
+              <fieldset>
+                  
+                  <legend>tus datos de contraseña</legend>
+        <label> Contraseña</label>
+        <input type="password" placeholder="pass">
+
+        <button>Enviar Contraseña</button>
+         </div>
+        </fieldset>
+
+
+        <!-- SELECCION multiple -->
+        <fieldset>
+            <legend>musica</legend>
+     <input type="checkbox" name="hobbies">
+     <label for="hobbes">pop</label> 
+     <input type="checkbox" name="hobbies">
+     <label for="hobbes">Dancehall</label> 
+     <input type="checkbox" name="hobbies">
+     <label for="hobbes">Country</label>   
+         </fieldset>
+
+     <!-- seleccion unica -->
+
+     <fieldset>
+         <legend>Genero</legend>
+         <input type="radio" name="genero">
+         <label>masculino</label>
+         <input type="radio" name="genero">
+         <label>femenino</label>
+         <input type="radio" name="genero">
+         <label>otro</label>
+     </fieldset>
+
+     <!-- etiqueta select o de seleccion -->
+     <fieldset>
+     <legend>pais</legend>
+
+     <select>
+         <label for="pais">paises</label>
+         <option value="co">colombia</option>
+         <option value="PE">peru</option>
+         <option value="ECU">ECUADOR</option>
+     </select>
+    </fieldset>
+   
+    <!-- area de texto -->
+
+     <fieldset>
+         <legend>Cuadro de mensaje</legend>
+    <textarea name="texto" id="" cols="80" rows="10" placeholder="escribe aqui tu mensaje"></textarea>
+    </form>
+       <!-- etiqueta input con atributo number -->
+       <fieldset>
+    <input type="number">
+    <label for="">indique la cantidad de productos</label>
+</fieldset>
+</body>
+</html>

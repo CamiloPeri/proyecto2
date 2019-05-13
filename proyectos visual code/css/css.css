@@ -1,0 +1,59 @@
+:root {
+    --background:green;
+    --color:red;
+    --border: 10px solid;
+}
+
+
+    footer
+    {
+        background:var(--background);
+        border: var(--border);
+        padding: 20px;
+    }
+
+    body{
+        background:beige;
+        color:var(--color);
+    
+        }
+
+        .🙇{
+            background: yellow;
+
+        }
+     menu {
+        text-align: center;
+        caption-side: 30px;
+        list-style: none;
+         border: 3px solid;
+         padding: 40px;
+         text-decoration: none;
+         background-repeat: initial;
+         display: block;
+         }
+         menu > ul > li > a {
+
+            text-decoration: none;
+            border: 2px solid;
+        
+         }
+
+         header{
+            border: var(--border);
+             padding: 30px;
+             background: var(--background);
+         }
+
+         li >  ul  >li {
+
+            display: none;
+         }
+
+
+         li:hover  {
+
+         display:block;
+         }
+
+    

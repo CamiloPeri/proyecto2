@@ -1,0 +1,30 @@
+
+camilosoler@PE-HO-039 MINGW64 ~ (master)
+$ cd desktop
+
+camilosoler@PE-HO-039 MINGW64 ~/desktop (master)
+$ cd proyectos-git
+
+camilosoler@PE-HO-039 MINGW64 ~/desktop/proyectos-git (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/camilosoler/Desktop/proyectos-git/.git/
+
+camilosoler@PE-HO-039 MINGW64 ~/desktop/proyectos-git (master)
+$ git remote add holamundo1 https://github.com/CamiloPeri/holamundo1.git
+
+camilosoler@PE-HO-039 MINGW64 ~/desktop/proyectos-git (master)
+$ git push -u holamundo1 master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 236 bytes | 236.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CamiloPeri/holamundo1.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'holamundo1'.
+
+camilosoler@PE-HO-039 MINGW64 ~/desktop/proyectos-git (master)
+$ ^C
+
+camilosoler@PE-HO-039 MINGW64 ~/desktop/proyectos-git (master)
+$
+
